@@ -12,10 +12,6 @@
 
 	#################################################################
 
-	# This may not always work. It was copied from flamework-foursquareapp
-	# and since it's all OAuth2 it should work. But since it's OAuth2 it
-	# probably won't without more mucking about... (20120227/straup)
-
 	function instagram_api_call($method, $args=array(), $more=array()){
 
 		$method = ltrim($method, "/");
@@ -44,8 +40,8 @@
 		}
 
 		return okay(array(
-			"rsp" => $data['response'],
-		));
+			"rsp" => $data,
+	 	));
 	}
 
 	#################################################################
