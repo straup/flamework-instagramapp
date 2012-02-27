@@ -1,0 +1,7 @@
+# Instagram stuff
+
+# RewriteRule  ^signup/?$			signup.php		[L]
+# RewriteRule  ^signin/?$			signin.php		[L]
+
+RewriteRule  ^auth/?$		auth_callback_instagram_oauth.php?%{QUERY_STRING}	[L]
+RewriteRule  ^signin/?$		signin_instagram_oauth.php?%{QUERY_STRING}	 [L]

@@ -1,0 +1,9 @@
+<?php
+
+	# http://instagr.am/developer/
+
+	$GLOBALS['cfg']['instagram_oauth_key'] = '';
+	$GLOBALS['cfg']['instagram_oauth_secret'] = '';
+	$GLOBALS['cfg']['instagram_oauth_callback'] = 'auth/';
+
+?>
